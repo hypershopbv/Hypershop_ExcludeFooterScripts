@@ -1,0 +1,18 @@
+{
+    "name": "hypershop/module-exclude-footer-scripts",
+    "version": "100.4.5",
+    "type": "magento2-module",
+    "description": "Module to exclude javascript movement to the bottom of your page. This allows scripts to be executing immediately during page load.",
+    "homepage": "https://github.com/hypershopbv/Hypershop_ExcludeFooterScripts",
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hypershop\\ExcludeFooterScripts\\": ""
+        }
+    }
+}
