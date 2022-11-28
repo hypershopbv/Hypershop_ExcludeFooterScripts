@@ -1,6 +1,6 @@
 {
     "name": "hypershop/module-exclude-footer-scripts",
-    "version": "100.4.5",
+    "version": "100.4.5.1",
     "versions": "2.3.x, 2.4.x",
     "featured": false,
     "type": "magento2-module",
