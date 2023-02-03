@@ -8,7 +8,7 @@
 ## Usage / Settings
 - To prevent scripts to be moved to the bottom of your page, add the `excluded` tag to the script.
 
-```
+``` javascript
 <script>
     console.log('I get moved to the footer after load');
 </script>
