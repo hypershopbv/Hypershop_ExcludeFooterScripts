@@ -9,7 +9,13 @@
 - To prevent scripts to be moved to the bottom of your page, add the `excluded` tag to the script.
 
 ```
-<script src="" type="text/javascript" excluded></script>
+<script>
+    console.log('I get moved to the footer after load');
+</script>
+
+<script excluded>
+    console.log('I do not get moved to the bottom!');
+</script>
 ```
 
 ## Common issues
