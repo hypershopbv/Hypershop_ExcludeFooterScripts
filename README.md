@@ -1,5 +1,5 @@
 ## Goal
-- Module to exclude javascript movement to the bottom of your page. This allows scripts to be executing immediately during page load.
+- Module to exclude javascript movement to the bottom of your page. This is very useful when using the JS setting: "Move JS code to the bottom of the page". This allows scripts to be executing immediately during page load.
 
 ## Installation / Setup
 - Install the module using the command `composer require hypershop/module-exclude-footer-scripts-os`
